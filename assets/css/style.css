@@ -1,0 +1,41 @@
+figcaption {
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    transform: translateY(100%);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+figure:hover figcaption {
+    transform: translateY(0%);
+    bottom: 15px;
+    opacity: 1;
+}
+
+figure img {
+    cursor: pointer;
+    /* margin: 0%; */
+
+}
+.my-model{
+    width :50%;
+    background-color: rgba(0, 128, 128, 0.432);
+
+}
+.my-model img
+{
+    width: 50%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.fa-circle-xmark{
+    top: 16px;
+    right:16px
+}
+.my-model i
+{
+    cursor: pointer;
+}
